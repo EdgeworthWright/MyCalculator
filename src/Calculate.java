@@ -9,6 +9,10 @@ public class Calculate {
 
     public static void main(String[] args) {
 
+        // Geef de gebruiker een boodschap of de file al bestaat of juist niet
+        if (fileExists()) {
+        }
+
         readMyDataAndWriteDataToFile();
 
     }
@@ -33,7 +37,7 @@ public class Calculate {
         // .... Jouw code .....
 
 
-        writeToFile(age, name);
+        writeToFile(, );
 
     }
 
